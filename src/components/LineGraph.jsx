@@ -8,22 +8,17 @@ import {
   Tooltip,
   Legend,
   CartesianGrid,
-  BarChart,
-  Bar,
-  AreaChart,
-  Area,
+
 } from "recharts";
 
 const LineGraph = () => {
   return (
-   <>
-         <h1>1. line chart</h1>
-      <ResponsiveContainer width="70%" aspect={3}>
+   <div className="Main">
+         <h3>line chart</h3>
+      <ResponsiveContainer  width="100%" aspect={2.5}>
         <LineChart
-          data={Array}
-          width={500}
-          height={300}
-          margin={{ top: 5, right: 300, left: 20, bottom: 5 }}
+          data={Data}
+          
         >
           <Legend />
           <CartesianGrid strokeDashoffset={(4, 4)} />
@@ -31,14 +26,14 @@ const LineGraph = () => {
           <YAxis />
           <Tooltip
             contentStyle={{
-              backgroundColor: "bisque",
-              border: "1px solid black",
+              backgroundColor: "beige",
+              border: "2px solid black",
             }}
           />
           <Line
             type="linear"
             dataKey="student"
-            stroke="maroon"
+            stroke="red"
             activeDot={{ r: 5 }}
           />
           <Line
@@ -49,7 +44,7 @@ const LineGraph = () => {
           />
         </LineChart>
       </ResponsiveContainer>
-   </>
+   </div>
   )
 }
 

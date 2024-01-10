@@ -1,28 +1,28 @@
 const Data = [
-    {
-      name: "node",
-      student: 13,
-      fees: 10,
-    },
-    {
-      name: "javascript",
-      student: 15,
-      fees: 12,
-    },
+  {
+    name: "javascript",
+    student: 30,
+    fees: 40,
+  },
+  {
+    name: "react",
+    student: 25,
+    fees: 35,
+  },
+  {
+    name: "node",
+    student: 35,
+    fees: 40,
+  },
     {
       name: "Express",
-      student: 5,
-      fees: 17,
+      student: 20,
+      fees: 25,
     },
     {
       name: "mongoDB",
-      student: 13,
-      fees: 11,
-    },
-    {
-      name: "react",
-      student: 7,
-      fees: 20,
+      student: 20,
+      fees: 25,
     },
   ];
 
